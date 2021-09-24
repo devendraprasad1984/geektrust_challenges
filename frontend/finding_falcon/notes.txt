@@ -1,0 +1,5 @@
+https://findfalcone.herokuapp.com/token
+https://findfalcone.herokuapp.com/find
+https://findfalcone.herokuapp.com/planets
+https://findfalcone.herokuapp.com/vehicles
+
