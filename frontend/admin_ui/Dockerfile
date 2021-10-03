@@ -19,7 +19,7 @@ RUN npm run build
 
 # production environment
 #FROM nginx:stable-alpine
-FROM nginx:latest
+FROM docker2021repos/nginx:latest
 COPY --from=build /app/build /usr/share/nginx/html
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
